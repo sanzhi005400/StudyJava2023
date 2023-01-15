@@ -9,7 +9,7 @@ import java.util.Set;
  * @description:
  */
 /*1)HashSet实现了Set接口
- * 2)HashSet实际上是HashMap,看源码
+ * 2)HashSet实际上是HashMap,看源码(底层是单向链表)
  * 3)可以存放null值，但是也只能有一个null
  * 4）HashSet不保证元素是有序,取决于hash后,再确定索引的结果(即不保证存放元素的顺序和取出顺序一致)
  * 5)不能有重复元素/对象，在前面Set接口使用已经讲过*/
